@@ -1,0 +1,217 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.main {
+    width: 1440px;
+    height: 1278px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+}
+
+.position {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+}
+
+.item1 {
+    display: flex;
+    background-color: black;
+    width: 1440px;
+    height: 48px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.item1>select {
+    background-color: black;
+    color: white;
+    width: 78px;
+    height: 24px;
+    margin-left: 300px;
+}
+
+.item1>a {
+    color: white;
+    text-decoration: none;
+}
+
+.item2 {
+    display: flex;
+    width: 1270px;
+    height: 38px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 100px;
+    flex-direction: row;
+}
+
+.item2>div {
+    margin-left: 200px;
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.item2>h1 {
+    margin-left: 45px;
+}
+
+
+.item2>input {
+    position: absolute;
+    right: 170px;
+    width: 243px;
+    height: 38px;
+    background: #F5F5F5;
+}
+
+.item2>img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 175px;
+    top: 5px;
+}
+
+.item2>div>p>a {
+    color: black;
+    text-decoration: none;
+}
+
+.img {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+}
+
+.department {
+    display: flex;
+    gap: 5px;
+    margin-top: 90px;
+    margin-left: 150px;
+}
+
+.department>p>a {
+    color: rgb(171, 168, 168);
+    text-decoration: none;
+}
+
+.department>p {
+    color: rgb(171, 168, 168);
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 1170px;
+    margin-top: 100px;
+    margin-left: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.main1>h1{
+    font-size: 100px;
+}
+.main1>button{
+    width: Hug (254px)px;
+height: Hug (56px)px;
+padding: 16px 48px 16px 48px;
+gap: 10px;
+border-radius: 4px 0px 0px 0px;
+background: #DB4444;
+
+
+}
+.main1>button>a{
+    color: white;
+    text-decoration: none;
+}
+.footer {
+    display: flex;
+    background-color: black;
+    gap: 100px;
+    width: 1440px;
+    height: 440px;
+    bottom: 0px;
+    padding: 80px 0px 24px 0px;
+    opacity: 0px;
+    position: absolute;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer>ul>p>a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer>ul>a {
+    color: white;
+    text-decoration: none;
+}
+
+.email {
+    width: Fixed (217px)px;
+    position: relative;
+}
+
+.email>input {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    width: Fixed (217px)px;
+    height: Hug (48px)px;
+    padding: 12px 0px 12px 16px;
+    gap: 32px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.email>img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+
+.code {
+    display: flex;
+    gap: 10px;
+}
+
+.code>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.emogy {
+    display: flex;
+    gap: 20px;
+}
